@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra {
+  background-color: black;
+  color: white;
+  border-bottom-left-radius: 6px 5px;
+  border-bottom-right-radius: 6px 5px;
+  box-shadow: gray 2px 2px 3px;
+}
+
+.barraDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.nombreEitems{
+  display: flex;
+  flex-direction: row;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-content: center;
+  width: 40%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.items li {
+  padding: 2%;
+}
+
+li:active {
+  transform: scale(.9);
+}
+
+.nombre {
+  padding: 1%;
+}
+
+.logoMenu {
+  cursor: pointer;
+}
+
+.logoMenu:active {
+  transform: scale(.9);
+}
+
+hr {
+  background-color: rgb(206, 206, 206);
+  border: rgb(206, 206, 206);
+  height: 1px;
+  margin: 2% 0;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  background-color: rgb(34, 35, 39);
+  height: 120px;
+  font-size: 10px;
+  color: rgb(236, 236, 236);
+}
+
+.horarios {
+  width: 40%;
+  padding: 3% 3% 6% 6%;
+  text-align: center;
+}
+
+.horarios ul {
+  text-align: left;
+}
+
+.informacion {
+  width: 40%;
+  padding: 3% 3% 3% 3%;
+  text-align: left;
+}
+
+.container {
+  margin: 15px;
+  border: 1px solid rgb(216, 216, 216);
+  padding: 10px;
+  box-shadow: gray 1px 1px 6px 1px;
+}
+
+
+@media screen and (min-width: 570px) {
+  .barraDiv {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .items li {
+    padding: 6.5%;
+  }
+
+  footer {
+    font-size: 15px;
+    height: 170px;
+    margin: 1%;
+    box-shadow: rgb(78, 78, 88) 3px 3px 4px;
+  }
+
+  .horarios {
+    width: 40%;
+    padding: 2% 5% 5% 6%;
+    text-align: center;
+  }
+  
+  .informacion {
+    width: 35%;
+    padding: 3% 3% 3% 10%;
+    text-align: left;
+  }
+
+  .logoMenu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .items {
+    display: none;
+  }
+  .nombreEitems {
+    width: 93%;
+  }
+  
+  .logoMenu {
+    padding-top: 7.3px;
+    padding-right: 5px;
+  }
+}
