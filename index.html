@@ -11,15 +11,22 @@
   <nav class="barra">
     <div class="barraDiv">
       <div class="nombreEitems">
-      <h1 class="nombre">Papelería Genesis II</h1>
+      <h1 class="nombre"><a href="index.html">Papelería Genesis II</a></h1>
       <ul class="items">
-        <li><a href="#">INICIO</a></li>
+        <li><a href="index.html">INICIO</a></li>
         <li><a href="#">PRODUCTOS</a></li>
         <li><a href="#">CONTACTO</a></li>
       </ul>
     </div>
-      <div class="logoMenu">
+      <div class="logoMenu" onclick="operarMenu(hola)">
         <img src="imagenes/menu.png" alt="Menú" width="25" height="20">
+      </div>
+      <div id="hola" class="menu">
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="#">PRODUCTOS</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -42,14 +49,15 @@
       </div>
       <div class="informacion">
         <p><strong>Papelería Genesis II</strong> <br/>
-            Tel.: 7026292 <br/>
-            Valle de Cafam, Bogotá D.C. <br/>
-            Correo: papegenesis2012@hotmail.es <br/>
-            Gmail: papegenesis.2012@gmail.com <br/>
-            Celular: 3005176514 <br/>
-            Celular 2: 3046472968 <br/>
+            Tel.: <a href="tel:6017026292">7026292</a> <br/>
+            <a href="https://goo.gl/maps/2joE1t8Mwk1g6quh8" target="_blank">Cra 14 I #93 B 13 sur, Valle de Cafam, Bogotá D.C.</a> <br/>
+            Hotmail: <a>papegenesis2012@hotmail.es</a> <br/>
+            Gmail: <a>papegenesis.2012@gmail.com</a> <br/>
+            Celular 1: <a href="tel:3005176514">3005176514</a> <br/>
+            Celular 2: <a href="tel:3046472968">3046472968</a> <br/>
         </p>
       </div>
   </footer>
+  <script src="eventos.js"></script>
 </body>
 </html>
