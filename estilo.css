@@ -115,6 +115,10 @@ footer{
   box-shadow: gray 1px 1px 6px 1px;
 }
 
+#copyright{
+  text-align: center;
+  font-size: 12px;
+}
 
 @media screen and (min-width: 570px) {
   .barraDiv {
