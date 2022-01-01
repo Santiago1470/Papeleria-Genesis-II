@@ -87,16 +87,21 @@ li:active {
   }
 
 .mas2 {
-  position: relative;
+  position: absolute;
   background-color: rgb(58, 58, 58);
   margin: 2px auto;
-  width: 50%;
+  width: auto;
   box-shadow: rgb(112, 112, 112) 0.5px 0.5px 4px 0.5px;
   font-size: 14px;
+  display: none;
 }
   .mas2 ul {
     list-style: none;
   }
+ 
+.mas3 {
+  margin-top: 10px;
+}
 
 hr {
   background-color: rgb(206, 206, 206);
@@ -194,4 +199,3 @@ footer{
     padding-right: 5px;
   }
 }
-
