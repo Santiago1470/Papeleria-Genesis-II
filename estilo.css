@@ -11,6 +11,7 @@
   border-bottom-left-radius: 6px 5px;
   border-bottom-right-radius: 6px 5px;
   box-shadow: gray 2px 2px 3px;
+  width: 100%;
 }
 
 .barraDiv {
@@ -100,7 +101,7 @@ li:active {
   }
  
 .mas3 {
-  margin-top: 15%;
+  margin-top: 23%;
 }
 
 hr {
@@ -141,7 +142,7 @@ footer{
   font-size: 10px;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 710px) {
   .barraDiv {
     text-align: left;
     display: flex;
@@ -186,7 +187,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 709px) {
   .items {
     display: none;
   }
