@@ -22,7 +22,7 @@
   box-shadow: gray 1px 1px 6px 1px;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 710px) {
   .serviciosImg {
     display: grid;
     grid-gap: 20px;
@@ -41,7 +41,7 @@
       }
 }
 
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 709px) {
   .serviciosImg {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
