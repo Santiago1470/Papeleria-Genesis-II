@@ -1,6 +1,6 @@
 .inicio {
-  background-color: rgb(32, 32, 32);
-  box-shadow: rgb(211, 211, 211) 0.5px 0.5px 4px 0.5px;
+  background-color: rgb(27, 27, 27);
+  border: 1px solid rgb(121, 121, 121);
 }
 
 .cuadroTexto {
@@ -37,7 +37,7 @@
     width: 100%;
   }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 710px) {
   .serviciosImg{
     padding: 10px 80px;
   }
