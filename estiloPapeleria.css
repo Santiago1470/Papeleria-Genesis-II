@@ -24,29 +24,50 @@
 }
 
 .contenedorPapeleria {
-  display: flex;
-  gap: 5%;
+  display: grid;
+  grid-template-columns: 33% 41% 3% 23%;
+  padding: 0;
 }
 
-.imagen {
-  width: 20%;
-}
   .imagen img {
     width: 100%;
   }
 
-.texto {
-  width: 80%;
-}
   .texto p {
     width: 100%;
+    font-size: 10px;
   }
+
+  .textoMarcas p {
+    width: 100%;
+    font-size: 10px;
+  }
+
+.division {
+  width: 1px;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 0;
+  background-color: black;
+  right: 5px;
+}
 
 @media screen and (min-width: 710px) {
   .productosPapeleria {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     margin: 10px;
     padding: 5px;
+  }
+
+  .texto p {
+    font-size: 15px;
+  }
+
+  .textoMarcas p {
+    font-size: 15px;
   }
 }
