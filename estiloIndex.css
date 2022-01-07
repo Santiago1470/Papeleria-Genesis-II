@@ -23,18 +23,20 @@
 }
 
 .serviciosImg {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
 }
   .serviciosImg div {
     margin: 6px;
     border: 1px solid rgb(216, 216, 216);
     padding: 1px;
     box-shadow: gray 1px 1px 6px 1px;
-    width: 33.3%;
   }
   .serviciosImg div img {
     width: 100%;
+    margin: 10px auto;
+    display: block;
   }
 
 .mapa {
@@ -44,11 +46,11 @@
 
 @media screen and (min-width: 710px) {
   .serviciosImg{
-    padding: 10px 80px;
-  }
-  .serviciosImg div {
-    margin: 6px auto;
-    width: 24%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 80%;
+    margin: 10px auto;
   }
 
   .mapa {
