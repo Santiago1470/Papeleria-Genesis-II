@@ -11,104 +11,154 @@
   <title>Papelería Genesis II</title>
 </head>
 <body>
-  <nav class="barra">
-    <div class="barraDiv">
-      <div class="nombreEitems">
-      <h1 class="nombre"><a href="index.html">Papelería Genesis II</a></h1>
-      <ul class="items">
-        <li class="inicio"><a href="index.html">INICIO</a></li>
-        <li><a href="servicios.html">SERVICIOS</a></li>
-        <li><a href="papeleria.html">PAPELERÍA</a></li>
-        <div class="masCuadro">
-          <li class="mas3"><a href="#" onclick="operarMas2(otros2)">MÁS▼</a></li>
-          <div id="otros2" class="mas2">   
-            <ul>
-              <li><a href="catalogos.html">VENTA POR CATÁLOGO</a></li>
-              <li class="tecnologia"><a href="tecnologia.html">TECNOLOGÍA</a></li>
-            </ul>
-          </div>
-        </div>
-        <li><a href="#contacto">CONTACTO</a></li>
-      </ul>
-    </div>
-      <div class="logoMenu" onclick="operarMenu(hola)">
-        <img src="imagenes/menu.png" alt="Menú" width="25" height="20">
-      </div>
-      <div id="hola" class="menu">
-        <ul>
+  <div id="fondoG">
+    <nav class="barra">
+      <div class="barraDiv">
+        <div class="nombreEitems">
+        <h1 class="nombre"><a href="index.html">Papelería Genesis II</a></h1>
+        <ul class="items">
           <li class="inicio"><a href="index.html">INICIO</a></li>
           <li><a href="servicios.html">SERVICIOS</a></li>
-          <li class="papeleria"><a href="papeleria.html">PAPELERÍA</a></li>
-          <li class="masMenu"><a href="#" onclick="operarMas(otros)">MÁS▼</a></li>
-            <div id="otros" class="mas">   
+          <li><a href="papeleria.html">PAPELERÍA</a></li>
+          <div class="masCuadro">
+            <li class="mas3"><a href="#" onclick="operarMas2(otros2)">MÁS▼</a></li>
+            <div id="otros2" class="mas2">   
               <ul>
                 <li><a href="catalogos.html">VENTA POR CATÁLOGO</a></li>
                 <li class="tecnologia"><a href="tecnologia.html">TECNOLOGÍA</a></li>
               </ul>
-            </div>  
-          <li><a href="#contacto" class="contacto">CONTACTO</a></li>
+            </div>
+          </div>
+          <li><a href="#contacto">CONTACTO</a></li>
         </ul>
       </div>
-    </div>
-  </nav>
-  <hr/>
-  <h2 align="center">TECNOLOGÍA DISPONIBLE</h2>
-  <hr/>
-  <div class="productosTecnologia">
-    <div class="contenedorTecnologia">
-      <div class="imagen">
-        <img src="imagenes/usb.png" alt="USBs">
+        <div class="logoMenu" onclick="operarMenu(hola)">
+          <img src="imagenes/menu.png" alt="Menú" width="25" height="20">
+        </div>
+        <div id="hola" class="menu">
+          <ul>
+            <li class="inicio"><a href="index.html">INICIO</a></li>
+            <li><a href="servicios.html">SERVICIOS</a></li>
+            <li class="papeleria"><a href="papeleria.html">PAPELERÍA</a></li>
+            <li class="masMenu"><a href="#" onclick="operarMas(otros)">MÁS▼</a></li>
+              <div id="otros" class="mas">   
+                <ul>
+                  <li><a href="catalogos.html">VENTA POR CATÁLOGO</a></li>
+                  <li class="tecnologia"><a href="tecnologia.html">TECNOLOGÍA</a></li>
+                </ul>
+              </div>  
+            <li><a href="#contacto" class="contacto">CONTACTO</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="texto">
-        <h5>USB</h5>
+    </nav>
+    <hr/>
+    <h2 align="center">TECNOLOGÍA DISPONIBLE</h2>
+    <hr/>
+    <div class="cajaTecno">
+      <div class="container">
+        <div class="tecnoImg">
+          <img src="imagenes/usb.png" alt="USBs">
+        </div>
+        <div class="texto">
+          <h5>USB</h5>
+        </div>
+        <div class="boton">
+          <button><a href="#producto" onclick="detallesTecno(producto)">VER DETALLES</a></button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="tecnoImg">
+          <img src="imagenes/teclados.png" alt="Teclados">
+        </div>
+        <div class="texto">
+          <h5>Teclados</h5>
+        </div>
+        <div class="boton">
+          <button><a href="#producto2" onclick="detallesTecno2(producto2)">VER DETALLES</a></button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="tecnoImg">
+          <img src="imagenes/mouse.png" alt="Mouses">
+        </div>
+        <div class="texto">
+          <h5>Mouse</h5>
+        </div>
+        <div class="boton">
+          <button><a href="#producto3" onclick="detallesTecno3(producto3)">VER DETALLES</a></button>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <footer id="contacto">
+        <div class="horarios">
+          <p><strong>Horarios de Atención</strong></p>
+          <ul>
+            <li>Lunes: 8:30 am - 8:30 pm</li>
+            <li>Martes: 8:30 am - 8:30 pm</li>
+            <li>Miércoles: 8:30 am - 8:30 pm</li>
+            <li>Jueves: 8:30 am - 8:30 pm</li>
+            <li>Viernes: 8:30 am - 8:30 pm</li>
+            <li>Sábado: 8:30 am - 8:30 pm</li>
+            <li>Domingo: 8:30 am - 8:30 pm</li>
+          </ul>
+        </div>
+        <div class="informacion">
+          <p><strong>Papelería Genesis II</strong> <br/>
+              <a href="https://goo.gl/maps/2joE1t8Mwk1g6quh8" target="_blank">Cra 14 I #93 B 13 sur, Valle de Cafam, Bogotá D.C.</a> <br/>
+              Tel.: <a href="tel:6017026292">7026292</a> <br/>
+              Celular 1: <a href="tel:3005176514">3005176514</a> <br/>
+              Celular 2: <a href="tel:3046472968">3046472968</a> <br/>
+              Hotmail: <a>papegenesis2012@hotmail.es</a> <br/>
+              Gmail: <a>papegenesis.2012@gmail.com</a> <br/>
+          </p>
+        </div>
+    </footer>
+    <div id="copyright">Copyright &copy; 2022 - Papelería Genesis II - Todos los derechos reservados</div>
+  </div>
+  <section id="producto" class="cajaDescrip producto">
+    <div class="containerImgDescrip">
+      <div class="cerrar">
+        <img onclick="detallesTecno(producto)" src="imagenes/x.png" alt="Cerrar">
+      </div>
+      <div class="productoImg">
+        <img src="imagenes/usb.png" alt="USB">
+      </div>
+      <div class="textoDescrip">
+        <h4>USBs</h4>
         <p>Distintas USBs con capacidad de 4GB, 8GB, 16GB, 32GB y 64GB.</p>
       </div>
     </div>
-    <div class="contenedorTecnologia">
-      <div class="imagen">
+  </section>
+  <section id="producto2" class="cajaDescrip producto2">
+    <div class="containerImgDescrip">
+      <div class="cerrar">
+        <img onclick="detallesTecno2(producto2)" src="imagenes/x.png" alt="Cerrar">
+      </div>
+      <div class="productoImg">
         <img src="imagenes/teclados.png" alt="Teclados">
       </div>
-      <div class="texto">
-        <h5>Teclados</h5>
+      <div class="textoDescrip">
+        <h4>Teclados</h4>
         <p>Teclados de tipo alámbricos para computadores.</p>
       </div>
     </div>
-    <div class="contenedorTecnologia">
-      <div class="imagen">
-        <img src="imagenes/mouse.png" alt="Mouses">
+  </section>
+  <section id="producto3" class="cajaDescrip producto3">
+    <div class="containerImgDescrip">
+      <div class="cerrar">
+        <img onclick="detallesTecno3(producto3)" src="imagenes/x.png" alt="Cerrar">
       </div>
-      <div class="texto">
-        <h5>Mouse</h5>
+      <div class="productoImg">
+        <img src="imagenes/mouse.png" alt="Mouse">
+      </div>
+      <div class="textoDescrip">
+        <h4>Mouses</h4>
         <p>Dos tipos de mouse para computador, mouse alámbrico y mouse inalámbrico.</p>
       </div>
     </div>
-  </div>
-  <hr/>
-  <footer id="contacto">
-      <div class="horarios">
-        <p><strong>Horarios de Atención</strong></p>
-        <ul>
-          <li>Lunes: 8:30 am - 8:30 pm</li>
-          <li>Martes: 8:30 am - 8:30 pm</li>
-          <li>Miércoles: 8:30 am - 8:30 pm</li>
-          <li>Jueves: 8:30 am - 8:30 pm</li>
-          <li>Viernes: 8:30 am - 8:30 pm</li>
-          <li>Sábado: 8:30 am - 8:30 pm</li>
-          <li>Domingo: 8:30 am - 8:30 pm</li>
-        </ul>
-      </div>
-      <div class="informacion">
-        <p><strong>Papelería Genesis II</strong> <br/>
-            <a href="https://goo.gl/maps/2joE1t8Mwk1g6quh8" target="_blank">Cra 14 I #93 B 13 sur, Valle de Cafam, Bogotá D.C.</a> <br/>
-            Tel.: <a href="tel:6017026292">7026292</a> <br/>
-            Celular 1: <a href="tel:3005176514">3005176514</a> <br/>
-            Celular 2: <a href="tel:3046472968">3046472968</a> <br/>
-            Hotmail: <a>papegenesis2012@hotmail.es</a> <br/>
-            Gmail: <a>papegenesis.2012@gmail.com</a> <br/>
-        </p>
-      </div>
-  </footer>
-  <div id="copyright">Copyright &copy; 2022 - Papelería Genesis II - Todos los derechos reservados</div>
+  </section>
   <script src="eventos.js"></script>
 </body>
 </html>
