@@ -54,35 +54,62 @@
   <hr/>
   <h2 align="center">PAPELERÍA DISPONIBLE</h2>
   <hr/>
-  <div class="productosPapeleria">
-    <div class="contenedorPapeleria">
-      <div class="imagen">
+  <div class="cajaPapeleria">
+    <div class="container">
+      <div class="imagenPapeleria">
         <img src="imagenes/utilesEscolares.jpg" alt="Lapices">
       </div>
-      <div class="texto">
+      <div class="detalles">
+        <div class="tituloDetalles">
+          <p><a onclick="abrirDetalles()" href="#textoDetalles">VER DETALLES</a></p>
+        </div>
+        <div class="abrCer">
+          <img id="abrir" src="imagenes/flecha.png" alt="Flecha">
+          <img id="cerrar" src="imagenes/x.png" alt="Cerrar">
+        </div>
+      </div>
+      <hr id="linea" class="division">
+      <div id="texto1" class="texto">
         <h5>Utiles Escolares</h5>
         <p>Faber-Castell, Pointer, Norma, Estilo, Pelikan y Offi-Esco.</p>
       </div>
     </div>
-    <div class="contenedorPapeleria">
-      <div class="imagen">
-        <img src="imagenes/ganchos.png" alt="Lapices">
+    <div class="container">
+      <div class="imagenPapeleria">
+        <img src="imagenes/ganchos.png" alt="Ganchos">
       </div>
-      <div class="texto">
+      <div class="detalles">
+        <div class="tituloDetalles">
+          <p><a onclick="abrirDetalles2()" href="#textoDetalles">VER DETALLES</a></p>
+        </div>
+        <div class="abrCer2">
+          <img id="abrir2" src="imagenes/flecha.png" alt="Flecha">
+          <img id="cerrar2" src="imagenes/x.png" alt="Cerrar">
+        </div>
+      </div>
+      <hr id="linea2" class="division">
+      <div id="texto2" class="texto">
         <h5>Ganchos de oficina</h5>
         <p>Clips, ganchos legajadores, gancho de oficina, clips mariposa, chinche plastificado y chinche cabeza plastica</p>
-      </div>
-      <hr class="division"/>
-      <div class="textoMarcas">
         <h5>Marcas</h5>
         <p>Triton</p>
       </div>
     </div>
-    <div class="contenedorPapeleria">
-      <div class="imagen">
-        <img src="imagenes/carpetas.png" alt="Lapices">
+    <div class="container">
+      <div class="imagenPapeleria">
+        <img src="imagenes/carpetas.png" alt="Carpetas">
       </div>
-      <div class="texto">
+      <div class="detalles">
+        <div class="tituloDetalles">
+          <p><a onclick="abrirDetalles3()" href="#textoDetalles">VER DETALLES</a></p>
+        </div>
+        <div class="abrCer3">
+          <img id="abrir3" src="imagenes/flecha.png" alt="Flecha">
+          <img id="cerrar3" src="imagenes/x.png" alt="Cerrar">
+        </div>
+      </div>
+      <hr id="linea3" class="division">
+      <div id="texto3" class="texto">
         <h5>Carpetas</h5>
         <p>Carpetas de cartón, liga plastificada, lomo, legajadora, hilo, de presentación, folder, etc.</p>
       </div>
@@ -115,5 +142,6 @@
   </footer>
   <div id="copyright">Copyright &copy; 2022 - Papelería Genesis II - Todos los derechos reservados</div>
   <script src="eventos.js"></script>
+  <script src="eventosPapeleria.js"></script>
 </body>
 </html>
