@@ -39,11 +39,6 @@
     display: block;
   }
 
-.mapa {
-  width: 100%;
-  height: 250px;
-}
-
 @media screen and (min-width: 710px) {
   .serviciosImg{
     display: grid;
