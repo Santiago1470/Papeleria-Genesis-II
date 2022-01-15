@@ -74,8 +74,9 @@ li:active {
 
 .menu{
   position: absolute;
-  top: 6%;
-  width: 97%;
+  top: 34px;
+  right: 0;
+  left: 0;
   background-color: rgba(253, 233, 197, 0.959);
   padding: 8px;
   display: none;;
