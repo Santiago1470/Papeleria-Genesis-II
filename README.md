@@ -1,2 +1,0 @@
-# Papeleria-Genesis-II
-Empresa
